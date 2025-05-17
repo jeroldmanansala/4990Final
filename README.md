@@ -1,1 +1,4 @@
-# 4990Final
+# 4990 Final Project
+# Abstract
+  Musical style transfer is a challenging task that requires changing the genre of one piece to another, all while preserving the original content. This project explores work on using a variational autoencoder (VAE) designed to disentangle content and style with a latent space. The model is built using Long Short Term Memory (LSTM) layers, a recurrent neural network that works well with sequential data like music.  It uses a bidirectional encoder,  capturing information in both directions to understand the original content, and a decoder to reconstruct the sequence conditioned on content and genre. This model was trained on a dataset of 300 midi files, split between a range of classical and jazz pieces. To address the common issue of posterior collapse in VAE setups, a low beta value was used to weigh down the loss function’s KL term. This paper explores an approach to music style transfer using a more lightweight model trained on a limited dataset. 
+
